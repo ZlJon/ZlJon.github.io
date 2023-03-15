@@ -1,2 +1,2 @@
-# zljon.github.com
+# zljon.github.io
 ZlJon블로그
