@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Sunflower:wght@300;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  font-family: "Sunflower", sans-serif;
+  outline: none;
+  border: none;
+}
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  background: #000;
+  color: #fff;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 2rem 9%;
+  background: #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+section {
+  min-height: 100vh;
+  padding: 10rem 9% 2rem;
+}
+.logo {
+  font-size: 1.7rem;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  display: inline-block;
+  margin-left: 4rem;
+  font-size: 1.7rem;
+}
+.navbar a:hover,
+.navbar a.active {
+  color: #ef6e12;
+}
+#menu {
+  font-size: 3.6rem;
+  display: none;
+}
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home_detail h3 {
+  font-size: 3.2rem;
+  font-weight: 700;
+}
+.home_detail h1 {
+  font-size: 5.6rem;
+  font-weight: 700;
+  margin: 1.3rem 0;
+  opacity: 1;
+}
+.home_detail p {
+  font-size: 2.2rem;
+  padding: 1.5rem 0;
+  opacity: 1;
+}
+span {
+  color: #ef6e12;
+  padding: 0 1rem;
+}
+.textline {
+  color: #ef6e12;
+}
+
+.home .home_img img {
+  width: 20vw;
+  margin-left: 4rem;
+  border-radius: 50%;
+  border: 2px solid #ef6e12;
+}
+
+.about {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.about_img img {
+  width: 27vw;
+  margin-right: 10rem;
+  border-radius: 10%;
+  border: 2px solid #ef6e12;
+}
+
+.allheading {
+  text-align: center;
+  font-size: 4.5rem;
+}
+/* .btn {
+  display: inline-block;
+  font-size: 1.6rem;
+  padding: 1rem 2.8rem;
+  border-radius: 40px;
+  color: #000;
+  background: #ef6e12;
+  font-weight: 500;
+  text-decoration: none;
+  letter-spacing: 1px;
+  border: none;
+  outline: none;
+  transition: 0.5s ease;
+} */
+.about_section h2 {
+  text-align: left;
+  line-height: 1.2;
+}
+.about_section h3 {
+  font-size: 2.6rem;
+}
+.about_section p {
+  font-size: 1.6rem;
+  margin: 2rem 0 3rem;
+}
